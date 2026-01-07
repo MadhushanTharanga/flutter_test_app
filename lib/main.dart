@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_one/pages/jobs.dart';
 import 'package:test_one/pages/signup_page.dart';
 
 import 'pages/find_job.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FindJob(),
+      home: Jobs(),
     );
   }
 }
